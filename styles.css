@@ -1,0 +1,91 @@
+.container{
+  display: flex;
+  width: 90%;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+#barraLateral {
+  width: 22%;
+  height: 500px;
+  background-color: #000000;
+  padding-top: 6%;
+  color: #008877;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+}
+
+#resultados {
+  border: 1px solid white;
+  height: 400px;
+  font-size: 30px;
+  padding-top: 5%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #000000;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #ffee00;
+}
+
+p {
+  font-size: 2rem;
+  color: #ffee00;
+  font-family: monospace;
+}
+
+.dice img {
+  width: 80%;
+}
+
+.buttons{
+  margin-top: 5%;
+}
+
+#lanzarDados{
+  width: 200px;
+  height: 40px;
+  background-color: #232931;
+  color: #ffee00;
+  border: 2px solid #ffee00;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: 100ms all;
+}
+
+#lanzarDados:hover{
+  cursor: pointer;
+  background-color: #ffee00;
+  color: #232931;
+}
+
+#lanzarDados:active {
+  box-shadow: 0px 0px 10px black inset;
+}
+
+footer {
+  margin-top: 3%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
